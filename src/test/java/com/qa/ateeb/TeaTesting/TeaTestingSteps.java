@@ -35,8 +35,8 @@ public class TeaTestingSteps {
 	public void i_navigate_to_the_Menu_page() throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
 		
-		TeaTestingHome addHomePage = PageFactory.initElements(driver, TeaTestingHome.class);
-		addHomePage.clickMenuButton();
+		TeaTestingHome homePage = PageFactory.initElements(driver, TeaTestingHome.class);
+		homePage.clickMenuButton();
 		
 	}
 
